@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  color: #444744;
+  background-color: #EEEEEE;
+}
+
+/* ---------------Hero Styling--------- */
+.heroContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5;
+  
+}
+
+.heroDescription > h2{
+  font-size: 1.25rem;
+  margin: 0rem;
+  padding-left: 0.5rem;
+}
+.heroDescription > h3{
+  font-size: 4.5rem;
+}
+.heroDescription > h3 >span{
+  color: #4895ef;
+}
+.heroDescription> p{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.heroDescription> button{
+  background-color: #4895ef;
+  width: 7.5rem;
+  border: none;
+}
+
+.heroDescription> button:hover{
+  background-color: #444744;
+  
+}
+.heroDescription>.btn-one{
+  margin-right: 2rem;
+}
+.img-frame > img{
+  width: 90%;
+  border-radius: 50%;
+}
+.img-frame{
+  text-align: center;
+}
+.heroContainer> .outer-frame{
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+/* responsiveness for hero section */
+@media (max-width: 768px) {
+.heroContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.heroDescription> p{
+  font-size: 1rem;
+  font-weight: 400;
+  
+}
+.heroDescription > h3{
+  font-size: 3rem;
+}
+.heroDescription> button{
+  width: 7rem;
+}
+.img-frame > img{
+  margin: 2rem 0rem ;
+  width: 90%;
+  border-radius: 50%;
+}
+.heroDescription>.btn-one{
+  margin-right: 1rem;
+}
+
+
+
+}
