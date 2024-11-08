@@ -16,15 +16,16 @@ code {
   color: #444744;
   background-color: #EEEEEE;
 }
-
+.highlighted{
+  color: #4895ef;
+}
 /* ---------------Hero Styling--------- */
 .heroContainer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 5;
-  
+  margin: 4.5rem 5rem;
 }
 
 .heroDescription > h2{
@@ -66,34 +67,71 @@ code {
   border-radius: 50%;
   border: 1px solid black;
 }
-
-/* responsiveness for hero section */
-@media (max-width: 768px) {
-.heroContainer{
-  display: flex;
-  flex-direction: column;
+.heroPera{
+  margin: 1.5rem 0rem;
 }
 
-.heroDescription> p{
-  font-size: 1rem;
-  font-weight: 400;
+/*-----------------About Me styling-------------------*/
+
+.aboutContainer{
+  margin: 5rem;
   
 }
-.heroDescription > h3{
+.aboutContainer> h2{
   font-size: 3rem;
 }
-.heroDescription> button{
-  width: 7rem;
-}
-.img-frame > img{
-  margin: 2rem 0rem ;
-  width: 90%;
-  border-radius: 50%;
-}
-.heroDescription>.btn-one{
-  margin-right: 1rem;
+.aboutContainer>p{
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 1.5rem 0rem;
+  padding-left: 2rem;
+  border-left: 3.5px solid #4895ef;
 }
 
 
+/*--------------------------responsiveness---------------------------*/
+@media (max-width: 768px) {
+  /*----------hero section------------*/
+  .heroContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 2rem;
+  }
+  
+  .heroDescription> p{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .heroDescription > h3{
+    font-size: 3rem;
+  }
+  .heroDescription> button{
+    width: 7rem;
+  }
+  .img-frame > img{
+    margin: 2rem 0rem ;
+    width: 90%;
+    border-radius: 50%;
+  }
+  .heroDescription>.btn-one{
+    margin-right: 1rem;
+  }
 
-}
+  /*------about me responsiveness------*/
+
+  @media (max-width: 768px) {
+
+    .aboutContainer{
+      margin: 3rem 1.25rem;
+    }
+    .aboutContainer>h2{
+      font-size: 2.25rem;
+    }
+    .aboutContainer>p{
+      font-size: 1rem;
+    }
+  }
+
+
+  
+  }

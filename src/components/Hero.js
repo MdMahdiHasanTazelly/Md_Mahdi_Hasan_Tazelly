@@ -1,6 +1,6 @@
 function Hero(){
     return(
-       <div className="container heroContainer ">
+       <div className=" heroContainer ">
            <div className="heroDescription ">
               <h2>Hey, I'm Mahdi! &#128075;</h2>
               <br/>
@@ -8,8 +8,8 @@ function Hero(){
                  <span>MERN</span> Stack <br/>
                  Developer
               </h3>
-              <p className="">I'm a Full-stack MERN Developer. I use mainly React for frontend, 
-                 Express for backend and MongoDB as Database.Dedicated to crafting 
+              <p className="heroPara">I'm a Full-stack MERN Developer. I use mainly React for frontend, 
+                 Express for backend and MongoDB as Database. Dedicated to crafting 
                  seamless user experiences and scalable backend solutions.
               </p>
               <button type="button" class="btn btn-primary btn-one">Contact me</button>
