@@ -1,0 +1,34 @@
+/* Container to hold the scrolling items */
+.container {
+    overflow: hidden;      /* Hide overflow for a clean look */
+    width: 100%;           /* Adjust width as needed */
+    white-space: nowrap;   /* Prevents wrapping of elements */
+  }
+  
+  /* Scroll container with animation */
+  .scroll {
+    display: inline-flex;  /* Places elements in a horizontal row */
+    animation: scrollRight 15s linear infinite;
+  }
+  
+  /* Styling individual items */
+  .item {
+    display: inline-block;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Animation to move items from left to right */
+  @keyframes scrollRight {
+    0% {
+      transform: translateX(-100%); /* Start from left of container */
+    }
+    100% {
+      transform: translateX(100%);  /* Move to the right of the container */
+    }
+  }
+  

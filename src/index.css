@@ -75,7 +75,15 @@ code {
 
 .aboutContainer{
   margin: 5rem;
-  
+  padding: 4rem;
+  font-size: 1.25rem;
+  background-color: #d8dad8;
+  border-radius: 3.5rem;
+  }
+.aboutContainer>h2,
+.aboutContainer span,
+.aboutContainer>p{
+  background-color: #d8dad8;
 }
 .aboutContainer> h2{
   font-size: 3rem;
@@ -88,10 +96,95 @@ code {
   border-left: 3.5px solid #4895ef;
 }
 
+/* -------------------Skills section style---------------- */
+.skill-section{
+  margin: 5rem;
+}
+.skill-section>h2{
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  padding-left: 0.5rem;
+}
+.skill-section>h2::after{
+  content: "";               
+  display: inline-block;     
+  width: 10px;               
+  height: 10px;               
+  background-color: #4895ef;   
+  border-radius: 50%;        
+  margin-left: 8px; 
+}
+.skillsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skills{
+  margin: 1.5rem 0rem;
+  height: 16rem;
+  width: 15rem;
+  border: 1.5px solid #444744;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #d8dad8;
+  box-shadow: 0px 4px 8px #444744;
+}
 
-/*--------------------------responsiveness---------------------------*/
+.skills *{
+  background-color: #d8dad8;
+}
+.skills h3{
+  text-align: center;
+}
+.skill-list{
+  list-style: none;
+  font-size: 1.25rem;
+}
+.skill-list img{
+  width: 1rem;
+}
+.skill-list li{
+  padding: 0.25rem;
+}
+.slider-container{
+  height: 10rem;
+  width: 100%;
+  border-radius: 1.25rem;
+  overflow-x: hidden;
+  white-space: nowrap;
+  background-color: #d8dad8;
+  border: 1px solid #444744;
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 4px 8px #444744;
+}
+.slider-container img{
+  width: 4rem;
+  margin: 0rem 2rem;
+  background-color: #d8dad8;
+}
+
+.slider-animation{
+  white-space: nowrap;
+  animation: slideRight 25s linear infinite ;
+  animation-delay: 0ms;
+  background-color: #d8dad8;
+}
+
+@keyframes slideRight{
+  0%{
+    transform: translateX(5%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+/*-----------------------------responsiveness---------------------------*/
 @media (max-width: 768px) {
-  /*----------hero section------------*/
+  /*--------hero section----------*/
   .heroContainer{
     display: flex;
     flex-direction: column;
@@ -123,15 +216,37 @@ code {
 
     .aboutContainer{
       margin: 3rem 1.25rem;
+      border-radius: 1.25rem;
     }
     .aboutContainer>h2{
-      font-size: 2.25rem;
+      font-size: 2rem;
+      
     }
     .aboutContainer>p{
       font-size: 1rem;
     }
-  }
+
+    /*-------Skills responsiveness------*/
+
+    .skill-section >h2{
+      font-size: 2.5rem;
+    }
+    .skill-section{
+      margin: 3rem 1.25rem;
+    }
+    .slider-container{
+      height: 7.25rem;
+    }
+    .slider-container img{
+      width: 3rem;
+      margin: 0rem 2rem;
+      background-color: #d8dad8;
+    }
+    .slider-container{
+      margin-bottom: 2rem;
+    }
 
 
-  
   }
+
+}
