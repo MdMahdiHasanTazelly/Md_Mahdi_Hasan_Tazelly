@@ -45,7 +45,7 @@ code {
 }
 .heroDescription> button{
   background-color: #4895ef;
-  width: 7.5rem;
+  width: 7rem;
   border: none;
 }
 
@@ -123,9 +123,9 @@ code {
 }
 .skills{
   margin: 1.5rem 0rem;
-  height: 16rem;
+  height: 18rem;
   width: 15rem;
-  border: 1.5px solid #444744;
+  /* border: 1.5px solid #444744; */
   border-radius: 1rem;
   padding: 1rem;
   background-color: #d8dad8;
@@ -155,7 +155,7 @@ code {
   overflow-x: hidden;
   white-space: nowrap;
   background-color: #d8dad8;
-  border: 1px solid #444744;
+  /* border: 1px solid #444744; */
   display: flex;
   align-items: center;
   box-shadow: 4px 4px 8px #444744;
@@ -168,7 +168,7 @@ code {
 
 .slider-animation{
   white-space: nowrap;
-  animation: slideRight 25s linear infinite ;
+  animation: slideRight 30s linear infinite ;
   animation-delay: 0ms;
   background-color: #d8dad8;
 }
@@ -181,6 +181,48 @@ code {
     transform: translateX(-100%);
   }
 }
+
+/*-------------projects styling---------*/
+.projects-container{
+  margin: 5rem;
+}
+.projects-container>h2{
+  font-size: 2.5rem;
+}
+
+.projects-container>h2::after{
+  content: "";               
+  display: inline-block;     
+  width: 10px;               
+  height: 10px;               
+  background-color: #4895ef;   
+  border-radius: 50%;        
+  margin-left: 8px; 
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.project img{
+  width: 40%;
+
+}
+.project .description{
+  margin: 1rem;
+  padding: 1rem
+}
+.description .btn-pro{
+  background-color: #4895ef;
+  margin-right: 0.5rem;
+}
+.description .btn-pro:hover{
+  background-color: #444744;
+}
+
+/* ---------------- */
 
 /*-----------------------------responsiveness---------------------------*/
 @media (max-width: 768px) {
@@ -198,9 +240,7 @@ code {
   .heroDescription > h3{
     font-size: 3rem;
   }
-  .heroDescription> button{
-    width: 7rem;
-  }
+  
   .img-frame > img{
     margin: 2rem 0rem ;
     width: 90%;
@@ -216,6 +256,7 @@ code {
 
     .aboutContainer{
       margin: 3rem 1.25rem;
+      padding: 1.5rem 1rem;
       border-radius: 1.25rem;
     }
     .aboutContainer>h2{
@@ -245,6 +286,32 @@ code {
     .slider-container{
       margin-bottom: 2rem;
     }
+    /*-------projects section------- */
+    .projects-container{
+      margin: 2.5rem 1rem;
+    }
+
+    .projects-container>h2{
+      font-size: 2.5rem;
+    }
+    .project{
+      flex-direction: column;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #444744;
+    }
+    .project>img{
+      width: 85%;
+    }
+    .project .description{
+      margin: 1rem 0rem;
+      padding: 0.5rem 1rem;
+    }
+    .dropdown>.dropdown-menu{
+      padding: 0px !important;
+      background-color: #d8dad8 !important;
+    }
+
+
 
 
   }
