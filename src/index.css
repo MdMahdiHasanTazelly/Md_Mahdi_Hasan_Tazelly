@@ -78,7 +78,7 @@ code {
   padding: 4rem;
   font-size: 1.25rem;
   background-color: #d8dad8;
-  border-radius: 3.5rem;
+  border-radius: 2.5rem;
   }
 .aboutContainer>h2,
 .aboutContainer span,
@@ -231,7 +231,7 @@ code {
 }
 
 .contact-container h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 20px;
   color: #444744;
 }
@@ -244,7 +244,7 @@ code {
 }
 
 .contact-form label {
-  font-size: 16px;
+  font-size: 1.25rem;
   color: #555;
   margin-bottom: 5px;
 }
@@ -261,7 +261,8 @@ code {
 
 .contact-form textarea {
   resize: vertical;
-  min-height: 120px;
+  min-height: 13rem;
+  height: 13rem;
 }
 
 .contact-form button {
@@ -279,6 +280,69 @@ code {
   background-color: #444744;
 }
 
+
+/*------------Footer Styling------ */
+.footer-container h2{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.footer-container{
+  margin: 5rem;
+}
+.footer-offer{
+  font-size: 1.25rem;
+}
+.footer-offer li{
+  padding: 0.25rem;
+}
+.footer-details{
+  display: flex;
+  flex-direction: row;
+  
+  /* padding-left: 2rem; */
+}
+.footer-contact{
+  font-size: 1.25rem;
+  padding-left: 12.5rem;
+}
+.footer-contact ul{
+  list-style: none;
+}
+.footer-socials{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footer-socials i{
+  /* margin-left: 2rem; */
+  /* margin-top: 2rem; */
+  font-size: 1.5rem;
+}
+.footer-socials i:hover{
+  color: #4895ef;
+  font-size: 1.60rem;
+}
+.fa-github{
+  margin-right: 1.5rem;
+}
+.footer-social-container{
+  margin-left: 2rem;
+}
+.copyright{
+  border-top: 1.5px solid #444744;
+  font-size: 1rem;
+}
+.copyright, .copyright p, .copyright span{
+  margin: 0rem;
+  padding: 0rem;
+  background-color: #d8dad8;
+  text-align: center;
+}
+.copyright span{
+  color: #4895ef;
+}
 
 
 
@@ -371,7 +435,28 @@ code {
       background-color: #d8dad8 !important;
     }
 
-
+/* footer part */
+ 
+    .footer-details{
+      flex-direction: column;;
+    }
+    .footer-contact{
+      margin: 1rem;
+      padding: 0rem;
+    }
+    .footer-container{
+      margin: 1rem;
+    }
+    .footer-contact ul{
+      padding: 0rem;
+    }
+    .footer-social-container{
+      margin: 0rem;
+    }
+    .footer-container h2{
+      margin-bottom: 1rem;
+      margin-top: 2.5rem;
+    }
 
 
 

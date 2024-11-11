@@ -71,7 +71,7 @@ import "./PopUp.css";
              )
              }
 
-             <h2>Get in Touch</h2>
+             <h2>Ask Me!</h2>
              <form ref={form} className="contact-form" onSubmit={ handleFormSubmit }>
                <label>Email</label>
                <input 
