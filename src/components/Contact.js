@@ -1,4 +1,5 @@
 import {useState, useRef} from 'react';
+import { Element } from 'react-scroll';
 import emailjs from '@emailjs/browser';
 import "./PopUp.css";
 
@@ -56,6 +57,7 @@ import "./PopUp.css";
 
 
     return ( 
+      
         <div className="contact-container">
 
               { isPopUpVisible &&(
@@ -104,6 +106,7 @@ import "./PopUp.css";
                <button type="submit">Send</button>
              </form>
         </div>
+        
     );
  }
  

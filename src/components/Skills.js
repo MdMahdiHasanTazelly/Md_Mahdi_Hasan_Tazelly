@@ -1,6 +1,8 @@
+import { Element } from "react-scroll";
+
 function Skills() {
   return (
-    <>
+    <Element name="skills">
         <div className="skill-section">
           <h2>Skills</h2>
           <div className="skillsContainer">
@@ -126,7 +128,7 @@ function Skills() {
         </div>
 
 
-    </>
+    </Element>
   );
 }
 

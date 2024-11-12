@@ -1,8 +1,9 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 
 function Footer() {
     return (  
-        <>
+        <Element name="contact">
         <div className='footer-container'>
             <h2>Get Me in Touch</h2>
             <div className='footer-details'>
@@ -62,7 +63,7 @@ function Footer() {
             <p>Made with <span>&hearts;</span> by Md Mahdi Hasan Tazelly</p>
             <p>&#64;2024 All Rights Reserved</p>
         </div>
-        </> 
+        </Element> 
     );
 }
 
