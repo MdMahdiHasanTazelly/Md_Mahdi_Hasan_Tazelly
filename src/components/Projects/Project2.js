@@ -20,12 +20,6 @@ function Project2(){
             >
                 <button type="button" class="btn btn-primary btn-pro">GitHub</button>
             </a>
-            
-            <a
-            href=""
-            target="_blank">
-                <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
-            </a>    
 
             <a 
             href="https://wanderlust-sw2l.onrender.com/listings"
@@ -33,6 +27,14 @@ function Project2(){
             >
                 <button type="button" class="btn btn-primary btn-pro">Live Link</button>
             </a>
+            
+            <a
+            href=""
+            target="_blank">
+                <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
+            </a>    
+
+           
 
         </div>
         <img src="/images/wanderlust.png"/>

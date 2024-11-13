@@ -42,8 +42,6 @@ function Project1(){
                     </ul>
                 </span>
 
-                <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
-
                 <a
                 target="_blank"
                 href="https://zerodha-clone-frontend-z5y3.onrender.com/"
@@ -51,7 +49,9 @@ function Project1(){
                     <button type="button" class="btn btn-primary btn-pro">Live Link</button>
                 </a>
 
-                
+                <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
+
+                               
             </div>
             
         </div>

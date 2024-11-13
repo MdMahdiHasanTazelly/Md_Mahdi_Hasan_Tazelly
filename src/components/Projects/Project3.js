@@ -20,14 +20,14 @@ function Project3() {
                     <button type="button" class="btn btn-primary btn-pro">GitHub</button>
                 </a>
 
-                <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
-
                 <a
                 target="_blank"
                 href="https://spotify-landing-page-2je1.onrender.com/"
                 >
                     <button type="button" class="btn btn-primary btn-pro">Live Link</button>
                 </a>
+
+                <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
 
                 
             </div>
