@@ -61,7 +61,7 @@ function Footer() {
         </div>
         <div className='copyright'>
             <p>Made with <span>&hearts;</span> by Md Mahdi Hasan Tazelly</p>
-            <p>&#64;2024 All Rights Reserved</p>
+            <p>&#x24B8;2024 All Rights Reserved</p>
         </div>
         </Element> 
     );
