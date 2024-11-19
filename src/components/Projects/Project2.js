@@ -8,10 +8,13 @@ function Project2(){
         <div className="description">
             <h3>Wanderlust</h3>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto 
-                possimus eaque necessitatibus hic reprehenderit, quisquam excepturi 
-                nam, debitis itaque adipisci sequi odio dolores accusamus voluptatibus 
-                quam! Eius aspernatur sapiente fuga!
+                    Wanderlust is a property rental platform for vacation outings. Anyone can list own 
+                    property, add a review, see property location on map.
+                    <br/>
+                    Main Tehnologies: HTML, Vanilla CSS, JavaScript, MongoDB, Bootstrap
+                    <br/>
+                    <br/>
+                    <b> NB: If you have any queries, then feel free to reach me out! </b>
             </p>
 
             <a 

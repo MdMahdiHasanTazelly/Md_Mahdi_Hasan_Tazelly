@@ -51,6 +51,10 @@ function Footer() {
                             <a href='https://x.com/MahdiTazelly' target='_blank'>
                                <i class="fa-brands fa-square-x-twitter"></i>
                             </a>
+
+                            <a href='https://www.linkedin.com/in/md-mahdi-hasan-tazelly-8b5624339/'  target="_blank">
+                               <i class="fa-brands fa-linkedin"></i>
+                            </a>
                            
                         </div>
                     </div>

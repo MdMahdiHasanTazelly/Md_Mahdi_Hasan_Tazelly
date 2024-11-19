@@ -7,10 +7,13 @@ function Project1(){
             <div className="description">
                 <h3>Zerodha Clone</h3>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto 
-                    possimus eaque necessitatibus hic reprehenderit, quisquam excepturi 
-                    nam, debitis itaque adipisci sequi odio dolores accusamus voluptatibus 
-                    quam! Eius aspernatur sapiente fuga!
+                    As a practice, I've built a clone stock exchange paltform named Zerodha.
+                    Here one can look after stocks. 
+                    <br/>
+                    Main Tehnologies: HTML, CSS, JavaScript, Express, MongoDB, React, Bootstrap
+                    <br/>
+                    <br/>
+                    <b> NB: If you have any queries, then feel free to reach me out! </b>
                 </p>
 
 

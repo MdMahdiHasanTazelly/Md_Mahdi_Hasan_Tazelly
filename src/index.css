@@ -314,13 +314,14 @@ code {
 }
 .footer-socials i{
   font-size: 1.5rem;
+  margin-right: 1.5rem;
 }
 .footer-socials i:hover{
   color: #4895ef;
   font-size: 1.60rem;
 }
 .fa-github{
-  margin-right: 1.5rem;
+  /* margin-right: 1.5rem; */
 }
 .footer-social-container{
   margin-left: 2rem;

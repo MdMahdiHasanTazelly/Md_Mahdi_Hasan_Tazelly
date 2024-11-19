@@ -7,10 +7,13 @@ function Project3() {
             <div className="description">
                 <h3>Spotify Landing Page</h3>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto 
-                    possimus eaque necessitatibus hic reprehenderit, quisquam excepturi 
-                    nam, debitis itaque adipisci sequi odio dolores accusamus voluptatibus 
-                    quam! Eius aspernatur sapiente fuga!
+                    It's basically a static landing page of spotify. No functionality has been added with this.
+                    To practice my HTML and CSS knowledge, i've built this one. 
+                    <br/>
+                    Main Tehnologies: HTML, Vanilla CSS.
+                    <br/>
+                    <br/>
+                    <b> NB: If you have any queries, then feel free to reach me out! </b>
                 </p>
 
                 <a
