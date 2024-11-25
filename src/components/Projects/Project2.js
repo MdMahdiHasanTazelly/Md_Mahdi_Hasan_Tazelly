@@ -32,7 +32,7 @@ function Project2(){
             </a>
             
             <a
-            href=""
+            href="https://youtu.be/fPR0tZMDGZs?si=X3qyxZDrGuV2MWHP"
             target="_blank">
                 <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
             </a>    

@@ -52,9 +52,13 @@ function Project1(){
                     <button type="button" class="btn btn-primary btn-pro">Live Link</button>
                 </a>
 
-                <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
-
-                               
+                <a
+                target="_blank"
+                href="https://youtu.be/qnrr1gJxmJ4?si=qOGo7segcqKrVa4M"
+                >
+                    <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
+                </a>
+                                               
             </div>
             
         </div>
