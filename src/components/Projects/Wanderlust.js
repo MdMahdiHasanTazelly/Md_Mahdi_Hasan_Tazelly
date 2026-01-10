@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Project2(){
+function Wanderlust(){
 
     return(
     <div className="project">
@@ -14,7 +14,7 @@ function Project2(){
                     Main Tehnologies: HTML, Vanilla CSS, JavaScript, MongoDB, Bootstrap
                     <br/>
                     <br/>
-                    <b> NB: If you have any queries, then feel free to reach me out! </b>
+                    <b> NB: To see the project live, feel free to reach me out! </b>
             </p>
 
             <a 
@@ -24,12 +24,12 @@ function Project2(){
                 <button type="button" class="btn btn-primary btn-pro">GitHub</button>
             </a>
 
-            <a 
+            {/* <a 
             href="https://wanderlust-sw2l.onrender.com/listings"
             target="_blank"
             >
                 <button type="button" class="btn btn-primary btn-pro">Live Link</button>
-            </a>
+            </a> */}
             
             <a
             href="https://youtu.be/fPR0tZMDGZs?si=X3qyxZDrGuV2MWHP"
@@ -46,4 +46,4 @@ function Project2(){
 }
 
 
-export default Project2;
+export default Wanderlust;

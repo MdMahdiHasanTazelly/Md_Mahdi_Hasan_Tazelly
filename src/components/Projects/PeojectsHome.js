@@ -1,17 +1,26 @@
 import { Element } from "react-scroll";
-import Project1 from "./Project1";
-import Project2 from "./Project2";
-import Project3 from "./Project3";
+import ZerodhaClone from "./ZerodhaClone";
+import Wanderlust from "./Wanderlust";
+import Spotify from "./Spotify";
+import EFCAFE from "./ECAFE";
+import MedFinder from "./MedFinder";
 
 
-function ProjectsHome(){
-    return(
+function ProjectsHome() {
+    return (
         <Element name="projects">
             <div className="projects-container">
                 <h2>Projects</h2>
-                <Project1/>
-                <Project2/>
-                <Project3/>
+                <ZerodhaClone />
+                <Wanderlust />
+                <EFCAFE />
+                <MedFinder />
+
+
+
+                <Spotify />
+
+
             </div>
         </Element>
     );
