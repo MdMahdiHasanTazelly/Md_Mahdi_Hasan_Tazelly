@@ -32,7 +32,8 @@ function About() {
                     expertise & contribute to my fullest.
 
                     <br /><br />
-                    I&#39;m <span className="highlighted">open to collaborate and new opportunities</span>, so feel free to reach out!
+                    I&#39;m <span className="highlighted" style={{ fontWeight: "bold" }}
+                    >open to collaborate and new opportunities</span>, so feel free to reach out!
                 </p>
             </div>
         </Element>
