@@ -12,7 +12,7 @@ function TopBar(){
   return (
     <nav className="navbar">
       <div className="nav-logo">
-         <img src="/images/logo.png"/>
+         <img src="/images/logo.png" alt="logo"/>
       </div>
       <button className="nav-toggle" onClick={toggleMenu}>
         <i class="fa-solid fa-bars"></i>
