@@ -11,7 +11,7 @@ function Wanderlust(){
                     Wanderlust is a property rental platform for vacation outings. Anyone can list own 
                     property, add a review, see property location on map.
                     <br/>
-                    Main Tehnologies: HTML, Vanilla CSS, JavaScript, MongoDB, Bootstrap
+                    <b>Tehnologies:</b> HTML, Vanilla CSS, JavaScript, MongoDB, Bootstrap
                     <br/>
                     <br/>
                     <b> NB: To see the project live, feel free to reach me out! </b>

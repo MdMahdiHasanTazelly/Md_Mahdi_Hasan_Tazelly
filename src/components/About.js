@@ -31,9 +31,9 @@ function About() {
                     My career goal is to work in a cooperative team and on impactful projects, where I can grow my
                     expertise & contribute to my fullest.
 
-                    <br /><br />
+                    {/* <br /><br />
                     I&#39;m <span className="highlighted" style={{ fontWeight: "bold" }}
-                    >open to collaborate and new opportunities</span>, so feel free to reach out!
+                    >open to collaborate and new opportunities</span>, so feel free to reach out! */}
                 </p>
             </div>
         </Element>

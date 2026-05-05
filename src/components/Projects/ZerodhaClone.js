@@ -3,14 +3,14 @@
 function ZerodhaClone() {
     return (
         <div className="project">
-            <img src="/images/Zerodha.png" />
+            <img src="/images/Zerodha.png" style={{ padding: "1rem" }} />
             <div className="description">
                 <h3>Zerodha Clone</h3>
                 <p>
                     As a practice, I've built a clone stock exchange paltform named Zerodha.
                     Here one can look after stocks.
                     <br />
-                    Main Tehnologies: HTML, CSS, JavaScript, Express, MongoDB, React, Bootstrap
+                    <b>Tehnologies:</b> HTML, CSS, JavaScript, Express, MongoDB, React, Bootstrap
                     <br />
                     <br />
                     <b> NB: To see the project live, feel free to reach me out! </b>
