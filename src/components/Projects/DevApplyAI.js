@@ -26,12 +26,14 @@ function DevApplyAI() {
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item"
                             target="_blank"
+                            rel="noopener noreferrer"
                             href="https://github.com/MdMahdiHasanTazelly/DevApplyAI"
                         >Frontend</a>
                         </li>
 
                         <li><a
                             target="_blank"
+                            rel="noopener noreferrer"
                             class="dropdown-item"
                             href="https://github.com/MdMahdiHasanTazelly/DevApplyAI_backend"
                         >Backend</a>
@@ -44,7 +46,9 @@ function DevApplyAI() {
 
                 <a
                     href="https://www.youtube.com/watch?v=naogP2kXhk8"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
                 </a>
 
