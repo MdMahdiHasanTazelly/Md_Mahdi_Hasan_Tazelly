@@ -15,7 +15,7 @@ function Hero() {
                         <span>Software</span>
                         <br></br>
                         <span
-                            style={{ color: "#444744", marginLeft: "13rem" }}
+                            style={{ color: "#444744", marginLeft: "11rem" }}
 
                         >Engineer</span> <br />
 

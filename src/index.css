@@ -13,6 +13,8 @@ code {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   color: #444744;
   background-color: #EEEEEE;
 }
@@ -21,7 +23,7 @@ code {
   color: #4895ef;
 }
 
-/* ---------------Hero Styling--------- */
+/* ------------------------------Hero Styling------------------------ */
 
 .heroContainer {
   display: flex;
@@ -31,11 +33,9 @@ code {
   margin: 7rem 5rem 2.5rem 5rem;
 }
 
-
-
 .heroDescription>h2 {
   font-size: 1.25rem;
-  margin: 0rem;
+  margin-top: 0.5rem;
   padding-left: 0.5rem;
 }
 
@@ -85,10 +85,44 @@ code {
   margin: 1.5rem 0rem;
 }
 
-/*-----------------About Me styling-------------------*/
+
+/*-----------------------------hero section responsiveness---------------------------*/
+@media (max-width: 768px) {
+
+  .heroContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 2rem;
+  }
+
+  .heroDescription {
+    padding: 2rem 1rem;
+  }
+
+  .heroDescription>p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .heroDescription>h3 {
+    font-size: 3rem;
+  }
+
+  .img-frame>img {
+    margin: 2rem 0rem;
+    width: 70%;
+    border-radius: 50%;
+  }
+
+  .heroDescription>.btn-one {
+    margin-right: 1rem;
+  }
+}
+
+/*------------------------------About Me styling---------------------------*/
 
 .aboutContainer {
-  margin: 5rem;
+  margin: 1rem;
   padding: 3rem;
   font-size: 1.25rem;
   background-color: #d8dad8;
@@ -108,18 +142,37 @@ code {
 .aboutContainer>p {
   font-size: 1.25rem;
   font-weight: 400;
-  margin: 1.5rem 0rem;
-  padding-left: 2rem;
+  margin: 1rem 0rem;
+  padding-left: 1rem;
   border-left: 3.5px solid #4895ef;
 }
 
-/* -------------------Skills section style---------------- */
+/*-----------------------------About me responsiveness---------------------------*/
+@media (max-width: 768px) {
+
+  .aboutContainer {
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    border-radius: 1.25rem;
+  }
+
+  .aboutContainer>h2 {
+    font-size: 2rem;
+
+  }
+
+  .aboutContainer>p {
+    font-size: 1rem;
+  }
+}
+
+/* --------------------------------Skills section style----------------------- */
 .skill-section {
-  margin: 5rem;
+  margin: 3rem;
 }
 
 .skill-section>h2 {
-  margin-bottom: 2rem;
+
   font-size: 3rem;
   padding-left: 0.5rem;
 }
@@ -187,7 +240,7 @@ code {
 
 .slider-container img {
   width: 4rem;
-  margin: 0rem 2rem;
+  margin: 0rem 1.5rem;
   background-color: #d8dad8;
 }
 
@@ -208,7 +261,46 @@ code {
   }
 }
 
-/*-------------projects styling---------*/
+
+/*-----------------------------Skills responsiveness---------------------------*/
+@media (max-width: 768px) {
+
+  .skills {
+    margin: 1.5rem 0rem;
+    height: 18rem;
+    width: 11rem;
+  }
+
+  .skill-list {
+    padding: 0;
+  }
+
+  .skill-section>h2 {
+    font-size: 2.5rem;
+  }
+
+  .skill-section {
+    margin: 3rem 1.25rem;
+  }
+
+  .slider-container {
+    height: 7.25rem;
+  }
+
+  .slider-container img {
+    width: 3rem;
+    margin: 0rem 2rem;
+    background-color: #d8dad8;
+  }
+
+  .slider-container {
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+/*--------------------projects styling----------------*/
 .projects-container {
   margin: 5rem;
 }
@@ -253,7 +345,40 @@ code {
   background-color: #444744;
 }
 
-/*---------------Contact form----------------------*/
+
+
+
+/*-----------------------------projects section responsiveness---------------------------*/
+@media (max-width: 768px) {
+
+  .projects-container {
+    margin: 2.5rem 1rem;
+  }
+
+  .projects-container>h2 {
+    font-size: 2.5rem;
+  }
+
+  .project {
+    flex-direction: column;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #444744;
+  }
+
+  .project>img {
+    width: 85%;
+  }
+
+  .project .description {
+    margin: 1rem 0rem;
+    padding: 0.5rem 1rem;
+  }
+
+
+
+}
+
+/*---------------------------------Contact form-------------------------------------------*/
 
 .contact-container {
   display: flex;
@@ -313,7 +438,7 @@ code {
 }
 
 
-/*------------Footer Styling------ */
+/*--------------------------Footer Styling-------------------------- */
 .footer-container h2 {
   font-size: 2.5rem;
   text-align: center;
@@ -354,18 +479,16 @@ code {
 }
 
 .footer-socials i {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-right: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .footer-socials i:hover {
   color: #4895ef;
-  font-size: 1.60rem;
+  transform: scale(1.2);
 }
 
-.fa-github {
-  /* margin-right: 1.5rem; */
-}
 
 .footer-social-container {
   margin-left: 2rem;
@@ -389,7 +512,40 @@ code {
   color: #4895ef;
 }
 
-/*---------Topbar Styling---------- */
+/*--------------------------Footer Responsiveness---------------------- */
+@media (max-width: 768px) {
+
+  .footer-details {
+    flex-direction: column;
+    ;
+  }
+
+  .footer-contact {
+    margin: 1rem;
+    padding: 0rem;
+  }
+
+  .footer-container {
+    margin: 1rem;
+  }
+
+  .footer-contact ul {
+    padding: 0rem;
+  }
+
+  .footer-social-container {
+    margin: 0rem;
+  }
+
+  .footer-container h2 {
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+  }
+}
+
+
+
+/*-----------------------------Topbar Styling---------------- */
 .navbar {
   position: sticky;
   display: flex;
@@ -414,7 +570,7 @@ code {
 
 .nav-logo img {
   width: 12%;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .nav-menu {
@@ -461,147 +617,8 @@ li>a:hover {
 
 
 
-
-
-
-
-/* ---------------- */
-
-/*-----------------------------responsiveness---------------------------*/
+/*--------------------Top Bar responsiveness-------------------------*/
 @media (max-width: 768px) {
-
-  /*--------hero section----------*/
-  .heroContainer {
-    display: flex;
-    flex-direction: column;
-    margin: 1.5rem 2rem;
-  }
-
-  .heroDescription>p {
-    font-size: 1rem;
-    font-weight: 400;
-  }
-
-  .heroDescription>h3 {
-    font-size: 3rem;
-  }
-
-  .img-frame>img {
-    margin: 2rem 0rem;
-    width: 90%;
-    border-radius: 50%;
-  }
-
-  .heroDescription>.btn-one {
-    margin-right: 1rem;
-  }
-
-  /*------about me responsiveness------*/
-
-  .aboutContainer {
-    margin: 3rem 1.25rem;
-    padding: 1.5rem 1rem;
-    border-radius: 1.25rem;
-  }
-
-  .aboutContainer>h2 {
-    font-size: 2rem;
-
-  }
-
-  .aboutContainer>p {
-    font-size: 1rem;
-  }
-
-  /*-------Skills responsiveness------*/
-
-  .skill-section>h2 {
-    font-size: 2.5rem;
-  }
-
-  .skill-section {
-    margin: 3rem 1.25rem;
-  }
-
-  .slider-container {
-    height: 7.25rem;
-  }
-
-  .slider-container img {
-    width: 3rem;
-    margin: 0rem 2rem;
-    background-color: #d8dad8;
-  }
-
-  .slider-container {
-    margin-bottom: 2rem;
-  }
-
-  /*-------projects section------- */
-  .projects-container {
-    margin: 2.5rem 1rem;
-  }
-
-  .projects-container>h2 {
-    font-size: 2.5rem;
-  }
-
-  .project {
-    flex-direction: column;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #444744;
-  }
-
-  .project>img {
-    width: 85%;
-  }
-
-  .project .description {
-    margin: 1rem 0rem;
-    padding: 0.5rem 1rem;
-  }
-
-  .dropdown>.dropdown-menu {
-    padding: 0px !important;
-    background-color: #d8dad8 !important;
-  }
-
-  .project button {
-    padding: 1rem 0rem !important;
-
-  }
-
-  /* footer part */
-
-  .footer-details {
-    flex-direction: column;
-    ;
-  }
-
-  .footer-contact {
-    margin: 1rem;
-    padding: 0rem;
-  }
-
-  .footer-container {
-    margin: 1rem;
-  }
-
-  .footer-contact ul {
-    padding: 0rem;
-  }
-
-  .footer-social-container {
-    margin: 0rem;
-  }
-
-  .footer-container h2 {
-    margin-bottom: 1rem;
-    margin-top: 2.5rem;
-  }
-
-
-  /*---------Topbar responsiveness-------*/
 
   .navbar {
     display: flex;
@@ -622,13 +639,13 @@ li>a:hover {
     cursor: pointer;
     background: none;
     border: none;
-    padding: 0;
+
   }
 
   .hamburger {
     width: 25px;
     height: 3px;
-    margin: 4px 0;
+    /* margin: 4px 0; */
     transition: 0.4s;
   }
 
@@ -660,7 +677,7 @@ li>a:hover {
 
   .nav-toggle i {
     font-size: 1.5rem;
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
 
 

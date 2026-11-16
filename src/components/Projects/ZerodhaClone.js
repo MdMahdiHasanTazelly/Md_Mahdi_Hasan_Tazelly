@@ -45,13 +45,6 @@ function ZerodhaClone() {
                     </ul>
                 </span>
 
-                {/* <a
-                target="_blank"
-                href="https://zerodha-clone-frontend-z5y3.onrender.com/"
-                >
-                    <button type="button" class="btn btn-primary btn-pro">Live Link</button>
-                </a> */}
-
                 <a
                     target="_blank"
                     href="https://youtu.be/qnrr1gJxmJ4?si=qOGo7segcqKrVa4M"
