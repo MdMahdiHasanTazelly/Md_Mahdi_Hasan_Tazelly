@@ -2,7 +2,7 @@ function EFCAFE() {
     return (
 
         <div className="project">
-            <img src="/images/ECAFE.png" alt="ECAFE screenshot"/>
+            <img src="/images/ECAFE.png" alt="ECAFE screenshot" />
             <div className="description">
                 <h3>ECAFE</h3>
                 <p>
@@ -27,12 +27,14 @@ function EFCAFE() {
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item"
                             target="_blank"
+                            rel="noopener noreferrer"
                             href="https://github.com/MdMahdiHasanTazelly/ECAFE_Frontend"
                         >Frontend</a>
                         </li>
 
                         <li><a
                             target="_blank"
+                            rel="noopener noreferrer"
                             class="dropdown-item"
                             href="https://github.com/MdMahdiHasanTazelly/ECAFE_Backend"
                         >Backend</a>
@@ -44,6 +46,7 @@ function EFCAFE() {
 
                 <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.youtube.com/watch?v=zGFpumaZ0ZA"
                 >
                     <button type="button" class="btn btn-primary btn-pro">Demo Video</button>

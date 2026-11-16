@@ -3,7 +3,7 @@
 function ZerodhaClone() {
     return (
         <div className="project">
-            <img src="/images/Zerodha.png" style={{ padding: "1rem" }} alt="Zerodha screenshot"/>
+            <img src="/images/Zerodha.png" style={{ padding: "1rem" }} alt="Zerodha screenshot" />
             <div className="description">
                 <h3>Zerodha Clone</h3>
                 <p>
@@ -25,12 +25,14 @@ function ZerodhaClone() {
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item"
                             target="_blank"
+                            rel="noopener noreferrer"
                             href="https://github.com/MdMahdiHasanTazelly/Zerodha_clone_frontend"
                         >Frontend</a>
                         </li>
 
                         <li><a
                             target="_blank"
+                            rel="noopener noreferrer"
                             class="dropdown-item"
                             href="https://github.com/MdMahdiHasanTazelly/Zerodha_clone_backend"
                         >Backend</a>
@@ -38,6 +40,7 @@ function ZerodhaClone() {
 
                         <li><a
                             target="_blank"
+                            rel="noopener noreferrer"
                             class="dropdown-item"
                             href="https://github.com/MdMahdiHasanTazelly/Zerodha_clone_dashboard"
                         >Dashboard</a>
@@ -47,6 +50,7 @@ function ZerodhaClone() {
 
                 <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://youtu.be/qnrr1gJxmJ4?si=qOGo7segcqKrVa4M"
                 >
                     <button type="button" class="btn btn-primary btn-pro">Demo Video</button>

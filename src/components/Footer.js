@@ -44,23 +44,23 @@ function Footer() {
                             <p>You can follow me on:</p>
                             <div className='footer-socials'>
 
-                                <a href='https://github.com/MdMahdiHasanTazelly' target='_blank'>
+                                <a href='https://github.com/MdMahdiHasanTazelly' target='_blank'  rel="noopener noreferrer">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
 
-                                <a href='https://x.com/MahdiTazelly' target='_blank'>
+                                <a href='https://x.com/MahdiTazelly' target='_blank'  rel="noopener noreferrer">
                                     <i class="fa-brands fa-square-x-twitter"></i>
                                 </a>
 
-                                <a href='https://www.linkedin.com/in/md-mahdi-hasan-tazelly-8b5624339/' target="_blank">
+                                <a href='https://www.linkedin.com/in/md-mahdi-hasan-tazelly-8b5624339/' target="_blank"  rel="noopener noreferrer">
                                     <i class="fa-brands fa-linkedin"></i>
                                 </a>
 
-                                <a href='https://www.youtube.com/@mahdihasantazelly' target='_blank'>
+                                <a href='https://www.youtube.com/@mahdihasantazelly' target='_blank'  rel="noopener noreferrer">
                                     <i class="fa-brands fa-youtube"></i>
                                 </a>
 
-                                <a href='https://leetcode.com/u/mahdi2212193042/' target='_blank'>
+                                <a href='https://leetcode.com/u/mahdi2212193042/' target='_blank'  rel="noopener noreferrer">
                                     <i class="fa-brands fa-leetcode"></i>
                                 </a>
 

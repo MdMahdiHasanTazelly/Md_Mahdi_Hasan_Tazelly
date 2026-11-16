@@ -18,17 +18,12 @@ function Spotify() {
 
                 <a
                     target="_blank"
+                     rel="noopener noreferrer"
                     href="https://github.com/MdMahdiHasanTazelly/spotify_landing_page"
                 >
                     <button type="button" class="btn btn-primary btn-pro">GitHub</button>
                 </a>
 
-                {/* <a
-                target="_blank"
-                href="https://spotify-landing-page-2je1.onrender.com/"
-                >
-                    <button type="button" class="btn btn-primary btn-pro">Live Link</button>
-                </a> */}
 
                 <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
 

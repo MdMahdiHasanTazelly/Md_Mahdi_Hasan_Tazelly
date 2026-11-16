@@ -27,12 +27,14 @@ function MedFinder() {
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item"
                             target="_blank"
+                            rel="noopener noreferrer"
                             href="https://github.com/MdMahdiHasanTazelly/MedFinder_Frontend"
                         >Frontend</a>
                         </li>
 
                         <li><a
                             target="_blank"
+                            rel="noopener noreferrer"
                             class="dropdown-item"
                             href="https://github.com/MdMahdiHasanTazelly/MedFinder_Backend"
                         >Backend</a>
@@ -42,23 +44,20 @@ function MedFinder() {
                     </ul>
                 </span>
 
-                {/* <a
-                    href="https://wanderlust-sw2l.onrender.com/listings"
-                    target="_blank"
-                >
-                    <button type="button" class="btn btn-primary btn-pro">Live Link</button>
-                </a> */}
+
 
                 <a
                     href="https://www.youtube.com/watch?v=XLJKFxgCcJc&t=1s"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <button type="button" class="btn btn-primary btn-pro">Demo Video</button>
                 </a>
 
 
 
             </div>
-            <img src="/images/MedFinder.png" alt="Med Finder screenshot"/>
+            <img src="/images/MedFinder.png" alt="Med Finder screenshot" />
         </div>
     );
 }
