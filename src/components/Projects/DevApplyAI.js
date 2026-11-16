@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 function DevApplyAI() {
 
@@ -8,9 +7,9 @@ function DevApplyAI() {
             <div className="description">
                 <h3>Dev Apply AI</h3>
                 <p>
-                    DevApplyAI is a full-stack AI-powered job application assistant designed to 
-                    streamline and automate the job application process. It helps users generate 
-                    tailored cover letter suggestions, matching score between job description and 
+                    DevApplyAI is a full-stack AI-powered job application assistant designed to
+                    streamline and automate the job application process. It helps users generate
+                    tailored cover letter suggestions, matching score between job description and
                     resume, missing and matching skills.
                     <br />
                     <b>Tehnologies:</b> Next JS, Bootstrap, Fast API, BERT, TinyLLAMA
@@ -52,7 +51,7 @@ function DevApplyAI() {
 
 
             </div>
-            <img src="/images/DevApplyAI.png" />
+            <img src="/images/DevApplyAI.png" alt="DevApply AI project screenshot" />
         </div>
     );
 }

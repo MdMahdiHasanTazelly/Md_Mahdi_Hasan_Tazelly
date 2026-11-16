@@ -2,7 +2,7 @@ function EFCAFE() {
     return (
 
         <div className="project">
-            <img src="/images/ECAFE.png" />
+            <img src="/images/ECAFE.png" alt="ECAFE screenshot"/>
             <div className="description">
                 <h3>ECAFE</h3>
                 <p>

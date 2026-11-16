@@ -39,7 +39,7 @@ function Wanderlust(){
            
 
         </div>
-        <img src="/images/wanderlust.png"/>
+        <img src="/images/wanderlust.png" alt="Wanderlust screenshot"/>
     </div>
     );
 }

@@ -1,5 +1,4 @@
 import {useState, useRef} from 'react';
-import { Element } from 'react-scroll';
 import emailjs from '@emailjs/browser';
 import "./PopUp.css";
 

@@ -37,7 +37,7 @@ function Hero() {
 
                 <div className="heroImage ">
                     <div className="img-frame">
-                        <img src="/images/gray.jpg" />
+                        <img src="/images/gray.jpg" alt="Hero section image"/>
                     </div>
 
                 </div>

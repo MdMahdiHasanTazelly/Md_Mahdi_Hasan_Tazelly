@@ -58,7 +58,7 @@ function MedFinder() {
 
 
             </div>
-            <img src="/images/MedFinder.png" />
+            <img src="/images/MedFinder.png" alt="Med Finder screenshot"/>
         </div>
     );
 }

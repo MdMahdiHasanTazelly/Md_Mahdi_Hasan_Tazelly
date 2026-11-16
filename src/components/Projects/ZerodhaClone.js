@@ -3,7 +3,7 @@
 function ZerodhaClone() {
     return (
         <div className="project">
-            <img src="/images/Zerodha.png" style={{ padding: "1rem" }} />
+            <img src="/images/Zerodha.png" style={{ padding: "1rem" }} alt="Zerodha screenshot"/>
             <div className="description">
                 <h3>Zerodha Clone</h3>
                 <p>

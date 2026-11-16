@@ -3,7 +3,7 @@ function Spotify() {
     return (
 
         <div className="project">
-            <img src="/images/spotify.png" />
+            <img src="/images/spotify.png" alt="Spotify screenshot"/>
             <div className="description">
                 <h3>Spotify Landing Page</h3>
                 <p>
