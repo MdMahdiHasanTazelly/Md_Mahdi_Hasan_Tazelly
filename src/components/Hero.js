@@ -14,8 +14,7 @@ function Hero() {
                         </span>   */}
                         <span>Software</span>
                         <br></br>
-                        <span
-                            style={{ color: "#444744", marginLeft: "11rem" }}
+                        <span className="hero-eng-h3"
 
                         >Engineer</span> <br />
 
@@ -37,7 +36,7 @@ function Hero() {
 
                 <div className="heroImage ">
                     <div className="img-frame">
-                        <img src="/images/gray.jpg" alt="Hero section image"/>
+                        <img src="/images/mahdi.png" alt="Portrait of Mahdi Hasan Tazelly" />
                     </div>
 
                 </div>

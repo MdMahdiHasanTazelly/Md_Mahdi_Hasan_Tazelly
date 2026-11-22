@@ -43,6 +43,11 @@ code {
   font-size: 4.5rem;
 }
 
+.hero-eng-h3 {
+  color: #444744 !important;
+  margin-left: 11rem;
+}
+
 .heroDescription>h3>span {
   color: #4895ef;
 }
@@ -68,18 +73,30 @@ code {
 }
 
 .img-frame>img {
-  width: 90%;
+  object-fit: cover;
+  width: 100%;
+  border: 2px solid #444744;
+  box-shadow: 0px 4px 8px #444744;
+
   border-radius: 50%;
 }
 
 .img-frame {
-  text-align: center;
+  animation: floating 4s ease-in-out infinite;
 }
 
-.heroContainer>.outer-frame {
-  border-radius: 50%;
-  border: 1px solid black;
+@keyframes floating {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
 }
+
 
 .heroPera {
   margin: 1.5rem 0rem;
@@ -89,6 +106,11 @@ code {
 /*-----------------------------hero section responsiveness---------------------------*/
 @media (max-width: 768px) {
 
+  .hero-eng-h3 {
+    color: #444744 !important;
+    margin-left: 6rem;
+  }
+
   .heroContainer {
     display: flex;
     flex-direction: column;
@@ -96,7 +118,7 @@ code {
   }
 
   .heroDescription {
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
   }
 
   .heroDescription>p {
@@ -110,7 +132,7 @@ code {
 
   .img-frame>img {
     margin: 2rem 0rem;
-    width: 70%;
+    width: 100%;
     border-radius: 50%;
   }
 
@@ -127,6 +149,7 @@ code {
   font-size: 1.25rem;
   background-color: #d8dad8;
   border-radius: 2.5rem;
+  box-shadow: 0px 4px 8px #444744
 }
 
 .aboutContainer>h2,
@@ -268,7 +291,7 @@ code {
   .skills {
     margin: 1.5rem 0rem;
     height: 18rem;
-    width: 11rem;
+    width: 10rem;
   }
 
   .skill-list {
@@ -280,7 +303,8 @@ code {
   }
 
   .skill-section {
-    margin: 3rem 1.25rem;
+    /* margin: 0rem 1.25rem; */
+    margin: 3rem 0rem;
   }
 
   .slider-container {
@@ -300,7 +324,7 @@ code {
 
 
 
-/*--------------------projects styling----------------*/
+/*--------------------------------projects styling------------------------------*/
 .projects-container {
   margin: 5rem;
 }
@@ -384,7 +408,7 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 1rem;
 }
 
 .contact-container h2 {

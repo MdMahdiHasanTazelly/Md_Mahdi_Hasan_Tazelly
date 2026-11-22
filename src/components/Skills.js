@@ -112,31 +112,31 @@ function Skills() {
 
         <div className="slider-container">
           <div className="slider-animation">
-            <img src="/images/python.svg" alt="python logo" />
-            <img src="/images/TensorFlow.svg" alt="tensorflow logo" />
-            <img src="/images/scikit-learn.svg" alt="scikit-learn logo" />
-            <img src="/images/numpy.svg" alt="numpy logo" />
-            <img src="/images/bootstrap.png" alt="bootstrap logo" />
-            <img src="/images/c.svg" alt="c logo" />
-            <img src="/images/c++.svg" alt="c++ logo" />
-            <img src="/images/css.svg" alt="css logo" />
-            <img src="/images/html.svg" alt="html logo" />
-            <img src="/images/express.svg" alt="express logo" />
-            <img src="/images/git.svg" alt="git logo" />
-            <img src="/images/github.svg" alt="github logo" />
-            <img src="/images/java.svg" alt="java logo" />
-            <img src="/images/spring-boot.svg" alt="spring-boot logo" />
-            <img src="/images/javascript.svg" alt="javascript logo" />
-            <img src="/images/jest.svg" alt="jest logo" />
-            <img src="/images/mongodb.svg" alt="mongodb logo" />
-            <img src="/images/mysql.svg" alt="mysql logo" />
-            <img src="/images/nodejs.svg" alt="nodejs logo" />
-            <img src="/images/react.svg" alt="react logo" />
-            <img src="/images/redux.svg" alt="redux logo" />
-            <img src="/images/tailwind-css.svg" alt="tailwind-css logo" />
+            <img src="/images/python.svg" alt="python " />
+            <img src="/images/TensorFlow.svg" alt="tensorflow " />
+            <img src="/images/scikit-learn.svg" alt="scikit-learn " />
+            <img src="/images/numpy.svg" alt="numpy " />
+            <img src="/images/bootstrap.png" alt="bootstrap " />
+            <img src="/images/c.svg" alt="c " />
+            <img src="/images/c++.svg" alt="c++ " />
+            <img src="/images/css.svg" alt="css " />
+            <img src="/images/html.svg" alt="html " />
+            <img src="/images/express.svg" alt="express " />
+            <img src="/images/git.svg" alt="git " />
+            <img src="/images/github.svg" alt="github " />
+            <img src="/images/java.svg" alt="java " />
+            <img src="/images/spring-boot.svg" alt="spring-boot " />
+            <img src="/images/javascript.svg" alt="javascript " />
+            <img src="/images/jest.svg" alt="jest " />
+            <img src="/images/mongodb.svg" alt="mongodb " />
+            <img src="/images/mysql.svg" alt="mysql " />
+            <img src="/images/nodejs.svg" alt="nodejs " />
+            <img src="/images/react.svg" alt="react " />
+            <img src="/images/redux.svg" alt="redux " />
+            <img src="/images/tailwind-css.svg" alt="tailwind-css " />
             <img src="/images/mui.svg" alt="mui logo" />
-            <img src="/images/docker.svg" alt="docker logo" />
-            <img src="/images/ubuntu.svg" alt="ubuntu logo" />
+            <img src="/images/docker.svg" alt="docker " />
+            <img src="/images/ubuntu.svg" alt="ubuntu " />
           </div>
 
         </div>
